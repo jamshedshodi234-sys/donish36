@@ -454,6 +454,22 @@ export const ProjectDocs: React.FC = () => {
                   Ҳамчун марҳилаи дуюм, барнома метавонад ба воситаи китобхонаи <strong>Electron</strong> ё <strong>Tauri</strong> ҳамчун файли насбшавандаи Windows (.exe) бастабандӣ гардад, ки ба омӯзгорон имкони кор дар синфхонаҳои компютериро медиҳад.
                 </p>
               </div>
+
+              <div className="p-4 rounded-2xl border border-emerald-300 dark:border-emerald-800/80 bg-emerald-50/70 dark:bg-emerald-950/20">
+                <h4 className="font-bold text-sm text-emerald-700 dark:text-emerald-400 mb-1 flex items-center gap-1.5">
+                  <Check className="w-4 h-4 text-emerald-600" />
+                  4. Нашр дар GitHub Pages (Ҳалли саҳифаи сафед)
+                </h4>
+                <p className="text-xs text-slate-700 dark:text-slate-300 mb-2 leading-relaxed">
+                  <strong>Сабаби сафед шудани саҳифа:</strong> Папкаи асосии <code>main / (root)</code> коди хоми TypeScript дорад, ки браузер бе компилятсия онро хонда наметавонад. Бояд папкаи сохташудаи <code>dist/</code> нашр шавад.
+                </p>
+                <div className="space-y-1.5 font-mono text-xs text-slate-800 dark:text-slate-200">
+                  <p className="font-sans font-semibold text-xs text-slate-900 dark:text-white">Усули автоматӣ (GitHub Actions):</p>
+                  <p>1. Дар GitHub ба <strong>Settings ➔ Pages</strong> равед.</p>
+                  <p>2. Дар майдони <strong>Source</strong> ба ҷои "Deploy from a branch", <strong>"GitHub Actions"</strong>-ро интихоб кунед.</p>
+                  <p>3. Лоиҳа худкор файлҳои компилятсияшудаи <code>dist/</code>-ро бо файли <code>.github/workflows/deploy.yml</code> сохта нашр мекунад!</p>
+                </div>
+              </div>
             </div>
           </article>
         )}
