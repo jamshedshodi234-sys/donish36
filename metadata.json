@@ -1,0 +1,6 @@
+{
+  "name": "Омӯзгори ҳушманд — AI Ёвар",
+  "description": "Платформаи зеҳни сунъӣ барои омӯзгорон ва хонандагони Тоҷикистон барои банақшагирии дарсҳо, таҳияи тестҳо, тавзеҳи фаннӣ ва ёрии инфиродӣ дар омӯзиш.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
